@@ -15,7 +15,7 @@
 
 </div>
 
-## **Prerequites**
+## **Prerequisites**
 ```
 pip install requests
 ```
