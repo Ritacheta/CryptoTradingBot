@@ -3,5 +3,6 @@
         "src",
         "utils",
         "binance"
-    ]
+    ],
+    "python.pythonPath": "env/bin/python"
 }

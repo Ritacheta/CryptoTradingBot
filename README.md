@@ -15,13 +15,13 @@
 
 </div>
 
-## **Prerequisites**
+## **Requirements**
 ```
-pip install requests
+$ pip install -r requirements.txt
 ```
+
 ## **Set Up**
 ```
 $ git clone https://github.com/Ritacheta/CryptoTradingBot
 $ cd CryptoTradingBot
 ```
-
