@@ -1,6 +1,6 @@
 import time
 from binance_apis.client import get_spot_client
-from utils.handler import get_current_coins,cancel_locked_orders
+from utils.handler import get_current_coins,cancel_locked_orders,hold_or_sell_coins
 from binance_apis.coins import coins_prices
 
 
@@ -16,3 +16,5 @@ if acc_details["canTrade"] and acc_details["accountType"] == "SPOT":
         time.sleep(2)
         acc_details = client.account()
         free_coins, locked_coins = get_current_coins(acc_details)
+    # To decide whether to hold or sell the free coins
+    hold_or_sell_coins(client,free_coins)

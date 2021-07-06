@@ -1,2 +1,3 @@
-global base_coin
-base_coin = "USDT"
+global BASE_COIN, LOSS_RATIO
+BASE_COIN = "USDT"
+LOSS_RATIO = 0.1
