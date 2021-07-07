@@ -18,3 +18,4 @@ if acc_details["canTrade"] and acc_details["accountType"] == "SPOT":
         free_coins, locked_coins = get_current_coins(acc_details)
     # To decide whether to hold or sell the free coins
     hold_or_sell_coins(client,free_coins)
+    

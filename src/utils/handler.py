@@ -46,5 +46,7 @@ def hold_or_sell_coins(client:Spot, coins:list):
     client : Spot object
     coins : free coins
     """
-    # 1. Check loss - if current_price < LOSS_RATIO * selling_price
+    # 1. Check loss - if current_price < (1-LOSS_RATIO) * selling_price
     # 2. Indicators values - overbought condition
+    # 3. Trailing Stop Loss - check last n hours price
+    
